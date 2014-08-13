@@ -2,7 +2,8 @@
 
 
 """
-Restaura o backup do banco de dados do gerenciador de pacotes PKG do freeBSD.
+Desinstala e instala os programas do banco de dados do gerenciador de pacotes PKG do freeBSD.
+Apenas irá afetar os que não estiverem "locados"(in lock).
 """
 
 import os
